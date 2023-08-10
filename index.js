@@ -1,9 +1,9 @@
 import express from "express";      
 import dotenv from "dotenv";        
-import { selectUsuarios, selectUsuario, insertUsuario, deleteUsuario } from "./bd.js";
-import dotenv from "dotenv";     
+import { selectUsuarios, selectUsuario, insertUsuario, deleteUsuario } from "./bd.js";    
 const app = express();              
-const port = 3000;            
+const port = 3000; 
+
 dotenv.config();
 
 app.get("/usuarios", async (req, res) => {
